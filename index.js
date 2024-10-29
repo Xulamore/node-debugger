@@ -4,7 +4,7 @@ const results = [];
 
 items.forEach((item) => {
     if (typeof item === 'number') {
-         (item % 2 === 0) results.push(item * 2);
+    if (item % 2 === 0) results.push(item * 2);
     } else if (item === null) {
         console.log("Found a null item");
     } else {
