@@ -6,7 +6,7 @@ items.forEach((item) => {
     if (typeof item === 'number') {
         if (item % 2 === 0) results.push(item * 2);
     } else if (item === null) {
-        console.log("Found a null item");
+        consol.log("Found a null item");
     } else {
         results.push(parseInt(item) || 0); 
     }
